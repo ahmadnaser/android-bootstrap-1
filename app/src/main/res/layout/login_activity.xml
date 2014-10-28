@@ -49,7 +49,9 @@
                 android:completionThreshold="1"
                 android:imeOptions="actionNext"
                 android:inputType="textEmailAddress"
-                android:nextFocusDown="@+id/et_password" />
+                android:nextFocusDown="@+id/et_password"
+                android:text="demo@androidbootstrap.com"
+                />
 
             <TextView
                 style="@style/ShadowText"
@@ -68,7 +70,9 @@
                 style="@style/SignInEditText"
                 android:imeOptions="actionDone"
                 android:inputType="textPassword"
-                android:password="true" />
+                android:password="true"
+                android:text="android"
+                />
 
             <Button
                 android:id="@+id/b_signin"
